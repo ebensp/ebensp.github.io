@@ -57,6 +57,7 @@ display: flex;
     background-color: azure;
     font-size: 50px;
 }
+
 /*******************************/
 .vision{
     justify-content: center;
@@ -74,12 +75,17 @@ display: flex;
     font-family: Comic Sans MS;
 }
 
-
+@media screen and (max-width:860px){
+.vision{
+    height: 210px;
+   
+    }}
 /**********************************/
 
 .tour-menu{
-    background-color: red;
-    height: 110px;
+    background-color: lightblue;
+    height: 50px;
+    margin: auto;
     justify-content: center;
     text-align: center;
     font-size: 35px;
@@ -89,6 +95,7 @@ display: flex;
 /**********************************/
 
 .news img{
+display: block;
     align-items: center;
     	width: 100%;
     height: 200px;
@@ -156,13 +163,15 @@ background-repeat: no-repeat;
      float: left;
     background-color:silver;
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 	width: 16.5%;
     padding: 2px;
     margin: auto 8%;
     box-shadow: 0px 3px 5px 2px lightgrey;
 justify-content: center;
-    height: 55%;
+    height: 60%;
 align-items: center;
     justify-items: center;
 }
@@ -174,6 +183,16 @@ align-items: center;
     text-align: center;
     justify-content: space-around;
     width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:860px){
+.team{
+  height: 550px;
+    }
+.team .as{
+    
+        font-size: 11px;
+    }
 }
 /******************************************/
 
@@ -226,42 +245,46 @@ button{
 /*********************************************/
 .newsupdate{
     
-    height: 100px;
+    height: 100%;
     background-color: red;
 }
 
 .promotion{
-    height: 200px;
+    height: 100%;
     background-color: YELLOW;
 }
 /*********************************************/
 
 footer{
-    border-bottom:2px solid grey;
-       display: block;
+    margin-bottom: 10px;
+    border-bottom: solid grey;
+    display: block;
     float: left;
 background-color:#58595B;
-   height:100%;
-  }
+   height:50%;
+    border-bottom-width: medium;
+}
 
 footer #contact{
-          list-style: none;
+         list-style: none;
     justify-content: space-around;
   float: left;
-    margin:0% 1%;
-border-right:2px solid aliceblue;
+    margin:0% 2.4%;
 }
 footer #contact li{
+    
     color: white;
-    margin: 3% ;
+    margin: 4% ;
      font-size: 23px;
     text-align: center;
 
 }
 footer a{
+    
+    height: 20px;
     color: aliceblue;
         padding: 1px;
-width: 200px;
+width: 250px;
 }
 
 #mybut{
@@ -278,12 +301,30 @@ text-decoration: underline
     opacity: 0.5;
 }
 #contact {
+    border-left:2px solid aliceblue;
     justify-content: center;
         height: 70%;
-    width: 22%;
+    width: 20%;
 }
 footer a{
     text-decoration: none;
+}
+
+@media screen and (max-width:860px){
+footer{
+    display: flex;
+flex-wrap:wrap;
+        height:50%;
+    border-bottom-width: medium;
+    font-size: 10px
+    }
+footer #contact{
+         list-style: none;
+    justify-content: space-between;
+  float: left;
+    margin:0% 2.4%;
+}
+
 }
 /**************************************/
 
@@ -296,6 +337,7 @@ center{
 width: 100%;
 }
  #media{
+     color: aliceblue;
     width: 250px;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -314,6 +356,13 @@ center i:hover{
     color: lightslategray;
     background-color: white;
 }
-center h4{
+center h4{color: antiquewhite;
     margin: 2% 0px 0px 0px;
 }
+
+
+
+
+/********************************************
+screen size/
+/********************************************/
