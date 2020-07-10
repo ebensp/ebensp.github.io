@@ -1,7 +1,9 @@
+
 *{
 margin:0;
 padding:0;
 }
+
 header{
     height: 960px;
     background-image: url(img/indepen_sq.jpg);
@@ -12,10 +14,12 @@ header{
     display: flex;
     flex-direction: column
 }
+
 header .nav-container .top{
      position: fixed;
     background-color: lightskyblue;
 }
+
 .top{
     background-color: ghostwhite;
     display: flex;
@@ -26,6 +30,7 @@ header .nav-container .top{
     list-style: none;
     opacity: 0.5
 }
+
 .top a{
     margin-top:5px; 
     display: block;
@@ -41,6 +46,7 @@ header .nav-container .top{
     background: yellow;
     color: black;
  }
+
 .banner{
     margin-bottom: 130px;
     flex: 1 0 auto;
@@ -48,6 +54,7 @@ display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .banner-card{
     flex: 0 0 50%;
     text-align: center;
@@ -58,8 +65,27 @@ display: flex;
     font-size: 50px;
 }
 
+@media screen and (max-width:860px){
+
+    header{
+    height: 1350px;
+    }
+     
+}
+
+@media screen and (max-width:360px){
+
+    header{
+    height: 1350px;
+    }
+   .banner{
+       margin-bottom: 130px;} 
+   
+}
+
 /*******************************/
-.vision{
+
+    .vision{
     justify-content: center;
     text-align: center;
     margin-top: 10px;
@@ -73,25 +99,49 @@ display: flex;
 }
 .vision h4{
     font-family: Comic Sans MS;
+font-size: 20px;
 }
 
 @media screen and (max-width:860px){
 .vision{
-    height: 210px;
+    height: 320px;
    
     }}
-/**********************************/
+
+@media screen and (max-width:360px){
+.vision{
+    height: 400px;
+   
+    }}
+
+@media screen and (max-width:375px){
+.vision{
+    height: 400px;
+   
+    }}
+
+@media screen and (max-width:320px){
+.vision{
+    height: 400px;
+
+}
+}
+  /**********************************/
 
 .tour-menu{
     background-color: lightblue;
-    height: 50px;
+    height: 80px;
     margin: auto;
     justify-content: center;
     text-align: center;
     font-size: 35px;
      color: lightslategray;
 }
-
+@media screen and (max-width:360px){
+.tour-menu{
+    height: 120px;
+   
+    }}
 /**********************************/
 
 .news img{
@@ -128,6 +178,7 @@ justify-content: center;
     text-decoration: none;
 display: block;
 }
+
 /****************************/
 .abt{
     width: 100%;
@@ -137,7 +188,7 @@ background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height:800px;
+    height:1100px;
 }
 
 .about-us {
@@ -159,6 +210,9 @@ background-repeat: no-repeat;
 #ab_us1{
     color: blue;
 }
+#ab_us2{
+    margin-top:0px;    
+    }
 .team{
      float: left;
     background-color:silver;
@@ -166,15 +220,25 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-	width: 16.5%;
-    padding: 2px;
-    margin: auto 8%;
+	width: 18.0%;
+    margin: auto 7%;
     box-shadow: 0px 3px 5px 2px lightgrey;
 justify-content: center;
-    height: 60%;
+    height: 80%;
 align-items: center;
     justify-items: center;
 }
+
+ .team .as{
+        font-size: 25px;
+    }
+    .team h2{
+        font-size: 100%;
+        font-weight: 900;
+    }
+    .abt i{
+    font-size: 350%;
+    }
 
 .as{
     margin: auto;
@@ -185,15 +249,192 @@ align-items: center;
     width: 100%;
     height: 100%;
 }
+/********************************************
+              screen size/
+/********************************************/
+
 @media screen and (max-width:860px){
-.team{
-  height: 550px;
-    }
-.team .as{
+
     
-        font-size: 11px;
+.abt{
+    display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+     .about-us {
+    width: 100%;
+        height: 41%;
+        }
+       #ab_us1{
+        margin: 0.2%;
+    }
+       #ab_us2{
+    margin-top:-10px;    
+    }
+    
+    .team{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 30%;
+      height: 68%;
+        margin:auto 1.5% ;
+    margin-top: -120px
+    }
+ .team .as{
+     width: 700px;
+        margin: 1px;
+        font-size: 17px;
+    }
+    .team h2{
+        font-size: 18px;
+        height: 5%;
+        font-weight: 900;
+    margin-bottom: 10px;
+    }
+    .abt i{
+    font-size: 450%;
     }
 }
+
+
+@media screen and (max-width:360px){
+.abt{
+    height: 1200px;
+display: flex;   
+    flex-direction: row;
+    flex-wrap:wrap;
+    }
+    #ab_us1{
+        margin: 0.2%; 
+    font-size: 100%;
+    }
+
+    .abt i{
+    font-size: 250%;
+    }
+    .team{
+        justify-content: center;
+        justify-self:center;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 100%;
+        height: 22.5%;
+        margin:auto ;
+    margin-top: -300px;
+        margin-bottom: 350px
+    } 
+    #ab_us2{
+     
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width:414px){
+.abt{
+    height: 1200px;
+display: flex;   
+    flex-direction: row;
+    flex-wrap:wrap;
+    }
+    #ab_us1{
+        margin: 0.2%; 
+    font-size: 100%;
+    }
+
+    .abt i{
+    font-size: 250%;
+    }
+    .team{
+        justify-content: center;
+        justify-self:center;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 100%;
+        height: 22.5%;
+        margin:auto ;
+    margin-top: -300px;
+        margin-bottom: 350px
+    } 
+    #ab_us2{
+     
+        font-size: 19px;
+    }
+    
+}
+
+@media screen and (max-width:411px){
+.abt{
+    height: 1300px;
+display: flex;   
+    flex-direction: row;
+    flex-wrap:wrap;
+    }
+    #ab_us1{
+        margin: 0.2%; 
+    font-size: 100%;
+    }
+
+    .abt i{
+    font-size: 250%;
+    }
+
+.team{
+        justify-content: center;
+        justify-self:center;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 100%;
+        height: 20%;
+        margin:auto ;
+    margin-top: -200px;
+        margin-bottom: 240px
+    } 
+    #ab_us2{
+     
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width:320px){
+.abt{
+    height: 1300px;
+display: flex;   
+    flex-direction: row;
+    flex-wrap:wrap;
+    }
+    #ab_us1{
+        margin: 0.2%; 
+    font-size: 100%;
+    }
+
+    .abt i{
+    font-size: 250%;
+    }
+
+.team{
+        justify-content: center;
+        justify-self:center;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 100%;
+        height: 22%;
+        margin:auto ;
+    margin-top: -170px;
+        margin-bottom: 200px
+    } 
+    #ab_us2{
+     
+        font-size: 25px;
+    }
+
+}
+
 /******************************************/
 
 
@@ -258,36 +499,37 @@ button{
 footer{
     margin-bottom: 10px;
     border-bottom: solid grey;
-    display: block;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 background-color:#58595B;
-   height:50%;
+   height:600px;
     border-bottom-width: medium;
+    margin: auto;
+    justify-content: center
 }
 
 footer #contact{
+    text-align: center;
          list-style: none;
-    justify-content: space-around;
-  float: left;
-    margin:0% 2.4%;
+    justify-content: center;
+      margin:auto 2.0%;
 }
 footer #contact li{
     
+    text-align: center;
+    justify-content: center;
     color: white;
-    margin: 4% ;
      font-size: 23px;
     text-align: center;
-
+margin-top: 10px;
 }
 footer a{
-    
-    height: 20px;
     color: aliceblue;
-        padding: 1px;
-width: 250px;
 }
 
 #mybut{
+    
     justify-content: center;
 color: white;
     text-align: center;
@@ -301,7 +543,7 @@ text-decoration: underline
     opacity: 0.5;
 }
 #contact {
-    border-left:2px solid aliceblue;
+    border-left:1px solid aliceblue;
     justify-content: center;
         height: 70%;
     width: 20%;
@@ -309,22 +551,40 @@ text-decoration: underline
 footer a{
     text-decoration: none;
 }
+/********************************************
+screen size/
+/********************************************/
 
 @media screen and (max-width:860px){
 footer{
     display: flex;
+    flex-direction: row;
 flex-wrap:wrap;
-        height:50%;
+        height:60%;
     border-bottom-width: medium;
-    font-size: 10px
+    justify-content: center
+    
     }
 footer #contact{
+    width: 50%;
          list-style: none;
-    justify-content: space-between;
-  float: left;
-    margin:0% 2.4%;
+    text-align: center;
+display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   justify-content:center;
+      margin:0% 8%;
+    padding: 20px;
 }
-
+    footer i{
+        font-size: 10px
+    }
+    footer li a{
+        
+        font-size: 20px
+    }
+    
+    
 }
 /**************************************/
 
@@ -362,7 +622,3 @@ center h4{color: antiquewhite;
 
 
 
-
-/********************************************
-screen size/
-/********************************************/
