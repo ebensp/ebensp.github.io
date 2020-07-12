@@ -76,10 +76,14 @@ display: flex;
 @media screen and (max-width:360px){
 
     header{
-    height: 1350px;
+    height: 630px;
     }
+    .top{
+        margin:auto;
+    }    
+    
    .banner{
-       margin-bottom: 130px;} 
+       margin-top: 200px;} 
    
 }
 
@@ -111,8 +115,11 @@ font-size: 20px;
 @media screen and (max-width:360px){
 .vision{
     height: 400px;
-   
-    }}
+       }
+.vision h2{
+    font-size: 90px;
+       }
+}
 
 @media screen and (max-width:375px){
 .vision{
@@ -125,6 +132,10 @@ font-size: 20px;
     height: 400px;
 
 }
+    .vision h2{
+    font-size: 80px;
+       }
+
 }
   /**********************************/
 
@@ -139,7 +150,9 @@ font-size: 20px;
 }
 @media screen and (max-width:360px){
 .tour-menu{
-    height: 120px;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
    
     }}
 /**********************************/
