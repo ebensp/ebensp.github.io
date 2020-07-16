@@ -6,7 +6,7 @@ padding:0;
 
 header{
     height: 960px;
-    background-image: url(img/indepen_sq.jpg);
+    background-image: url(/img/indepen_sq.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -196,7 +196,7 @@ display: block;
 .abt{
     width: 100%;
     display: block;
-     background: url(img/about_us/IMG-20190704-WA0015.jpg);
+     background: url(/img/about_us/IMG-20190704-WA0015.jpg);
 background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -453,7 +453,7 @@ display: flex;
 
 form{  
         justify-content: center;
-   background-image: url(img/tour_pics/IMG-20191103-WA0005.jpg);
+   background-image: url(/img/tour_pics/IMG-20191103-WA0005.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
