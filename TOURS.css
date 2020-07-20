@@ -48,23 +48,27 @@ box-shadow: 0px 3px lightgrey;
     margin-top: 10px;
     height:100px;
     border-radius: 200px;
-   margin-right: 500px
+   margin-right: 900px
 }
-/*************************************************
-               screen size
-/*************************************************/
-@media screen and (min-width:1920px){
-    .top a{
-        text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    margin:30px 90px auto 0px
-}
+/**********************************/
+@media screen and (max-width:1280px){
 
+.top a{
+    margin:30px 10px auto 30px
+}
 .hea1{
-     margin-right: 700px
-    }}
-/***************************************/
+   margin-right: 450px
+}
+}
+@media screen and (max-width:414px){
+.top a{
+    margin:30px 10px auto 20px
+}
+.hea1{
+   margin-right: 450px
+}
+}
+/************************************/
 
 .post{
     justify-content: center;
@@ -81,6 +85,32 @@ background-color:#1B67E8
     color:white;
     font-family: Comic Sans MS;
 }
+
+/************************************/
+@media screen and (max-width:320px){
+
+.post{
+    width: 390%;
+    height: 220px;
+}
+}
+@media screen and (max-width:375px){
+.post{
+    width: 335%;
+    }
+    }
+@media screen and (max-width:414px){
+.post{
+    width: 304%;
+    }
+    }
+@media screen and (max-width:414px){
+.post{
+    width: 322%;
+    }
+    
+}
+
 /*************************************************/
 .red{
     display: flex;
@@ -94,7 +124,7 @@ flex-wrap: wrap;
     width: 250px;
     height: 250px;
     margin-top: 30px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-left: 10px;
     border-radius: 200px;
 
@@ -103,10 +133,11 @@ flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     font-size: 40px;
-    width:900px;
+    width:700px;
     height: 300px;
     margin-top: 40px;
 margin-right: 10px;
+    margin-left: 50px;
     background-color: #0070A5;
         color: white;
     }
@@ -114,31 +145,41 @@ margin-right: 10px;
     height: 200px;
     width: 600px;
     margin-top: 35px;
-    margin-left: 150px
+    margin-left: 00px
+}
+/**************************************/
+@media screen and (max-width:320px){
+.red{
+    margin-top: 50px;
+}
+.red img{
+    margin-left: 50px;
+    }
+.tour_com{
+    margin-top: -350px;
+    margin-left: 400px;
+    }
+}
+@media screen and (max-width:375px){
+.red img{
+    margin-left: 20px;
+    }
+.tour_com{
+    margin-top: -350px;
+    margin-left: 350px;
+    }
+}
+@media screen and (max-width:414px){
+.red img{
+    margin-left: 20px;
+    }
+.tour_com{
+    margin-top: -350px;
+    margin-left: 350px;
+    }
 }
 
-/*************************************************
-               screen size
-/*************************************************/
- @media screen and (min-width:1920px){
-
-.red img{
-    width: 300px;
-    height: 300px;
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-left: 50px;
-    border-radius: 200px;
-}   
-
-.tour_com{
-        
-    margin-top: 40px;
-margin-left: 500px;
-    background-color: #0070A5;
-        color: white;
-     }    }    
-/**********************************************************/
+/*************************************/
 .black{
     display: flex;
  flex-direction: row;
@@ -172,23 +213,44 @@ margin-left: 500px;
     margin-top: 50px;
             
 }
-/*************************************************
-               screen size
-/*************************************************/
-@media screen and (min-width:1920px){
-
+/*************************************/
+@media screen and (max-width:320px){
 .black img{
-    width: 300px;
-    height: 300px;
-    margin-left: 350px;
-    
-}
-.tour_com1{
-    margin-left: 250px;
-    
+    margin-left: 150px;
     }
+.tour_com1{
+    margin-left: 500px;
+    margin-top: -350px;
+    }
+.tour_com1 h6{
+    width: 600px;
 }
-    
+}
+@media screen and (max-width:375px){
+.black img{
+    margin-left: 150px;
+    }
+.tour_com1{
+    margin-left: 500px;
+    margin-top: -350px;
+    }
+.tour_com1 h6{
+    width: 600px;
+}
+}
+@media screen and (max-width:414px){
+.black img{
+    margin-left: 150px;
+    }
+.tour_com1{
+    margin-left: 500px;
+    margin-top: -350px;
+    }
+.tour_com1 h6{
+    width: 600px;
+}
+}
+
 /**************************************/
 .cream{
     display: flex;
@@ -204,7 +266,7 @@ margin-left: 500px;
     height: 250px;
     margin-top: 50px;
     margin-right: 100px;
-    margin-left: 300px;
+    margin-left: 270px;
     border-radius: 250px;
 
 }
@@ -215,7 +277,7 @@ margin-left: 500px;
     width:650px;
     height: 300px;
     margin-top: 10px;
-margin-right: 10px;
+margin-left: 50px;
     border-left: 1px solid black;
     color: gray;
     }
@@ -225,24 +287,37 @@ margin-right: 10px;
     margin-top: 50px;
             
 }
-/*************************************************
-               screen size
-/*************************************************/
- @media screen and (min-width:1920px){
-
-.cream{
-    margin-top: 60p;
-}
-
+/*************************************/
+@media screen and (max-width:320px){
 .cream img{
     width: 300px;
-    height: 300px;
-    margin-left: 650px;
+    height: 240px;
+    
+
 }
 .tour_com2{
-margin-left: 150px;
+    margin-left:0px;
     }
 }
+@media screen and (max-width:375px){
+.cream img{
+    width: 300px;
+    height: 240px;
+    }
+.tour_com2{
+    margin-left:0px;
+    }
+}
+@media screen and (max-width:414px){
+.cream img{
+    width: 300px;
+    height: 240px;
+    }
+.tour_com2{
+    margin-left:0px;
+    }
+}
+
 /**************************************/
 .post2{
     margin-bottom: 100px;
@@ -258,7 +333,7 @@ margin-top: 20px;
     width: 60%;
     height: 400px;
     box-shadow: 1px 2px 0px 0px; 
-margin:auto 20%
+margin:auto 19%
 }
 .post2 h4{
     text-align: center;
@@ -269,19 +344,50 @@ font-size: 30px;
     margin-top: 20px;
     margin: auto 30%
 }
-/*************************************************
-               screen size
-/*************************************************/
- @media screen and (min-width:1920px){
-.post2 h4{
-    font-family: inherit;
-    margin-top: 15px;
+/**************************************/
+@media screen and (max-width:1440px){
+    .post2 img{
+      margin-left: 20.5%  
+    }
+
+    .post2 h4{
+        margin-left: 31%
     }
 }
+@media screen and (max-width:320px){
+.post2 img{
+    width: 150%;
+    margin:auto 120%
+}
+.post2 h4{
+    width: 150%;
+    margin: auto 120%
+}
+    }
+@media screen and (max-width:375px){
+.post2 img{
+    width: 150%;
+    margin:auto 90%
+}
+.post2 h4{
+    width: 150%;
+    margin:3% 90%
+}
+    }
+@media screen and (max-width:414px){
+.post2 img{
+    width: 150%;
+    margin:auto 77%
+}
+.post2 h4{
+    width: 150%;
+    margin:3% 78%
+}
+    }
+
 /****************************************/
 .pink{
 display: block;
-    margin:auto 28%;
     justify-content: center;
         height: 450px;
 }
@@ -291,24 +397,60 @@ display: block;
     height: 350px;
     width: 600px;
         
-    margin: 2% auto;
+    margin-left: 35%;
 }
 .pink h4{
+    margin-left: 2%;
     text-decoration: underline;
     font-size: 25px;
     text-align: center;
     justify-content: center;
     height: 50px
 }
-/*************************************************
-               screen size
-/*************************************************/
- @media screen and (min-width:1920px){
-.pink{
-    margin:auto 34.2%;
+/*********************************/
+@media screen and (max-width:1440px){
+.pink video{
+    margin-left: 30%;
 }
-}    
-/********************************/
+}
+@media screen and (max-width:1280px){
+    .pink video{
+        margin-left: 28%
+    }
+    .pink h4{
+        justify-content: center;
+        margin-left: 4.1%;
+    }
+}
+@media screen and (max-width:320px){
+    .pink video{
+        margin-left: 100%
+    }
+    .pink h4{
+width: 100%;
+        margin-left: 145%;
+    }
+}
+@media screen and (max-width:375px){
+    .pink video{
+        margin-left: 90%
+    }
+    .pink h4{
+width: 100%;
+        margin-left: 120%;
+    }
+}
+@media screen and (max-width:414px){
+    .pink video{
+        margin-left: 80%
+    }
+    .pink h4{
+width: 100%;
+        margin-left: 104%;
+    }
+}
+
+    /********************************/
 .white{
     display:flex;
     flex-direction: row;
@@ -327,6 +469,43 @@ margin:5% auto;
     border-radius: 200px;
 margin: auto;
 }
+/*************************************/
+@media screen and (max-width:320px){
+.white{
+width: 220%;
+margin:auto 85%;
+height: 250px
+    }
+.white img{
+    width: 200px;
+    height: 180px;
+margin: 2%;
+}
+    }
+@media screen and (max-width:375px){
+.white{
+width: 220%;
+margin:auto 55%;
+height: 250px
+    }
+.white img{
+    width: 200px;
+    height: 180px;
+margin: 2%;
+}
+    }
+@media screen and (max-width:414px){
+.white{
+width: 220%;
+margin:auto 40%;
+height: 250px
+    }
+.white img{
+    width: 200px;
+    height: 180px;
+margin: 2%;
+}
+    }
 
 /************************************/
 
@@ -350,6 +529,32 @@ background-color: lightblue
     border: 2px solid black;
     border-radius: 20px;
 }
+
+/*********************************/
+@media screen and (max-width:1280px){
+    .orange{
+        width: 50%
+    }
+}
+@media screen and (max-width:320px){
+.orange{
+    width: 190%;
+margin-left: 100%;
+    }
+    }
+@media screen and (max-width:375px){
+.orange{
+    width: 190%;
+margin-left: 73%;
+    }
+    }
+@media screen and (max-width:414px){
+.orange{
+    width: 190%;
+margin-left: 60%;
+    }
+    }
+
 /*************************************/
 form{
         display: flex;
@@ -392,22 +597,27 @@ height: 35px;
     width: 150px;
     box-shadow: 1px 1px 1px 1px; 
 }
-/*************************************************
-               screen size
-/*************************************************/
- @media screen and (min-width:1920px){
-
-form h1{
-        font-size: 50px;
-} 
-form h3{
-        font-size: 40px;
-     font-family: serif;
-     }
+/**************************************/
+@media screen and (max-width:320px){
+form{
+    border: none;
+width: 390%;
+ }
 }
-     
-     
-     
+@media screen and (max-width:375px){
+form{
+    border: none;
+width: 335%;
+ }
+}
+@media screen and (max-width:414px){
+form{
+    border: none;
+width: 304%;
+ }
+}
+
+
 /*************************************/
 footer{
     
@@ -465,22 +675,23 @@ footer a{
     text-decoration: none;
 }
      
-/*************************************************
-               screen size
-/*************************************************/
- @media screen and (min-width:1920px){
-
-footer #contact{
-    justify-content: center;
-    margin-left: 1%;
-    margin-right: 2%;
-     border-right: 2px solid grey
-     }
+/*****************************/
+@media screen and (max-width:320px){
+footer{
+width: 390%;  
+    }
+    }
+@media screen and (max-width:375px){
+footer{
+width: 335%;  
+    }
+    }
+@media screen and (max-width:414px){
+footer{
+width: 304%;  
 }
-     
-     
-     
-     
+}
+
 /**********************************************************/
 center{
     margin-top: 10px;
@@ -513,572 +724,30 @@ center i:hover{
 center h4{color: antiquewhite;
     margin: 2% 0px 0px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**************************************************************************************************************************************************************************************************************************************************************/
-
-/*
-
-
-*{
-margin:0;
-padding:0;
-}
-
-header{
-color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-header .nav-container .top{
-     position: fixed;
-    color: aliceblue;
-}
-
-.top{
-    background-color:white;
-    display: flex;
-    text-align:end;
-    width: 100%;
-    height: 120px;
-    list-style: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:flex-end;
-box-shadow: 0px 5px lightgrey;    
-}
-.top a{
-        margin-top:5px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    margin:30px 90px auto 0px
-}
-.top a:hover{
-    transition-duration: .40s;
-    background: lightgrey;
-    color: black;
- }
-.hea1 img{
-    justify-content: flex-start;
-    height:100px;
-border-bottom-right-radius: 55px;    
-border-bottom-left-radius: 55px;
-border-top-right-radius: 50px;
-border-top-left-radius: 50px;
-margin: 0px 800px auto 20px
-}
-/***************************************/
-/* screen size */
-/***************************************
-@media screen and (max-width:1092px){
-    .top a{text-decoration: none;
-    text-transform: uppercase;
-    color: red;
-    margin:30px 90px auto 0px
-}
-    
-}
-
-
-
-
-
-
-
-
-
-
-/***************************************
-    .post{
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 220px;
-background-color:#1B67E8
-}
-.post h5{
-    justify-content: center;
-    text-align: center;
-    margin-top: 130px;
-    font-size: 40px;
-    color:white;
-    font-family: Comic Sans MS;
-
-}
-/***************************************
-
-.red{
-    display: flex;
- flex-direction: row;   
-    color: white;
-    margin-top: 50px;
-
-    height: 400px;
-}
-.red img{
-    width: 350px;
-    height: 350px;
-    margin-top: 50px;
-    margin-right: 500px;
-    margin-left: 10px;
-    border-radius: 200px;
-
-}
-.tour_com{
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
-    width:1000px;
-    height: 350px;
-    margin-top: 40px;
-margin-right: 10px;
-    background-color: #0070A5;
-        color: white;
-    }
-.tour_com h6{
-    height: 200px;
-    width: 600px;
-    margin-top: 80px;
-    margin-left: 200px
-}
-/***************************************
-
-.black{
-    display: flex;
- flex-direction: row;   
-    color: white;
-    margin-top: 20px;
-
-    height: 400px;
-}
-.black img{
-    width: 350px;
-    height: 350px;
-    margin-top: 50px;
-    margin-right: 200px;
-    margin-left: 300px;
-    border-radius: 200px;
-
-}
-.tour_com1{
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
-    width:850px;
-    height: 350px;
-    margin-top: 10px;
-margin-right: 10px;
-    border-left: 1px solid black;
-    color: gray;
-    }
-.tour_com1 h6{
-
-    width: 600px;
-    margin-top: 50px;
-            
-}
-/***************************************
-.cream{
-    display: flex;
- flex-direction: row;   
-    color: white;
-    margin-top: 20px;
-
-    height: 500px;
-}
-.cream img{
-    width: 450px;
-    height: 350px;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 700px;
-    border-radius: 200px;
-
-}
-.tour_com2{
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
-    width:850px;
-    height: 350px;
-    margin-top: 10px;
-margin-right: 10px;
-    border-left: 1px solid black;
-    color: gray;
-    }
-.tour_com2 h6{
-
-    width: 600px;
-    margin-top: 50px;
-            
-}
-
-/***************************************
-.post2{
-    background-color: lightcyan;
-   width: 100%;
-    display:block;
-    height: 600px;
-justify-content: center;
-    
-}
-.post2 img{
-            justify-content: center;
-    width: 65%;
-    height: 450px;
-    box-shadow: 1px 3px 0px 0px; 
-margin: auto 15.0%;
-margin-top: 20px
-}
-.post2 h4{
-    text-align: center;
-    width: 40%;
-    justify-content: center;
-    font-family:inherit;
-font-size: 30px;
-    margin-top: 10px;
-    margin-left: 550px;
-    border-bottom: 2px solid grey;
-}
-/***************************************
-.pink{
-    margin:auto 34%;
-    justify-content: center;
-        height: 450px;
-}
-
-.pink video{
-    justify-content: center;
-    height: 350px;
-    width: 600px;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-margin: 2% auto;
-}
-.pink h4{
-    text-decoration: underline;
-    font-size: 25px;
-    text-align: center;
-    justify-content: center;
-    height: 50px
-}
-/***************************************
-.white{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: white;
-    height: 350px;
-justify-content: center;
-margin: auto;
-}
-.white img{
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 250px;
-    border-radius: 200px;
-margin: auto 5%;
-}
-
-/***************************************
-
-.orange a{
-     text-decoration: none;
-}
-
-.orange{
-    text-align:center;
-    height: 100px;
-    margin: auto;
-    text-decoration: none;
-    width: 40%;
-}
-#dist{
-    
-    color: grey;
-     font-size: 40px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-
-/********************************************
-form{
-        display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-	font-family: Georgia;
-	text-align: center;
-	border:2px solid lightblue;
-	background-image:url(/img/banner.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-    transform: translatey(50px);
-    background-color: #74F6F7;
-height: 750px;
-}
-
-form p,h1{
-    margin: 20px;
-    font-size: 30px;
-    
-} 
-form input{
-    font-size: 20px;
-    height: 50px;
-    width: 500px;
-}
-textarea{
-    font-size: 25px;
-    height: 200px;
-    width: 600px;
-}
-form button{
-    font-size: 20px;
-    background-color: lightblue;
-height: 40px;
-    width: 200px;
-    box-shadow: 1px 1px 10px 6px; 
-    
-}
-.for{
-    margin: auto 33%
-}
-
-/********************************************
-footer{
-    
-    margin-bottom: 10px;
-    border-bottom: solid grey;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-background-color:#58595B;
-   height:600px;
-    border-bottom-width: medium;
-    margin: auto;
-    justify-content: center
-}
-
-footer #contact{
-    text-align: center;
-         list-style: none;
-    justify-content: center;
-      margin:auto 2.0%;
-}
-footer #contact li{
-    
-    text-align: center;
-    justify-content: center;
-    color: white;
-     font-size: 23px;
-    text-align: center;
-margin-top: 10px;
-}
-footer a{
-    color: aliceblue;
-}
-
-#mybut{
-    
-    justify-content: center;
-color: white;
-    text-align: center;
-    font-family:sans-serif;
-    font-size: 20px;
-text-decoration: underline
-}
-#contact a:hover{
-    color: black;
-    background-color: yellow;
-    opacity: 0.5;
-}
-#contact {
-    border-left:1px solid aliceblue;
-    justify-content: center;
-        height: 70%;
-    width: 20%;
-}
-footer a{
-    text-decoration: none;
-}
-/********************************************
-screen size/
-/********************************************
-
-@media screen and (max-width:860px){
-footer{
-    display: flex;
-    flex-direction: row;
-flex-wrap:wrap;
-        height:60%;
-    border-bottom-width: medium;
-    justify-content: center
-    
-    }
-footer #contact{
-    width: 50%;
-         list-style: none;
-    text-align: center;
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   justify-content:center;
-      margin:0% 8%;
-    padding: 20px;
-}
-    footer i{
-        font-size: 10px
-    }
-    footer li a{
-        
-        font-size: 20px
-    }
-    #contact {
-        border:none;
-    }
-    
-}
-/**************************************
-
+/*************************************/
+@media screen and (max-width:320px){
 center{
-    margin-top: 10px;
-    height: 100%;
-    border-top :2px solid white;
-    color: white;
-  background-color:#58595B;
-width: 100%;
+width: 390%;
 }
- #media{
-     color: aliceblue;
-    width: 250px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    border-bottom:3px solid aliceblue;
 }
-center a{
-    justify-content: center;
-    font-size: 15px;
-    margin: 1% 5%;
-    color: lightslategray;
+@media screen and (max-width:375px){
+center{
+width: 335%;
 }
-center i{
-    color: white;
 }
-center i:hover{
-    color: lightslategray;
-    background-color: white;
+@media screen and (max-width:414px){
+center{
+width: 304%;
 }
-center h4{color: antiquewhite;
-    margin: 2% 0px 0px 0px;
 }
+
+
+
+
+
+
+
+
 
 
 
