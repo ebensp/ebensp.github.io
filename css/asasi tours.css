@@ -91,6 +91,16 @@ display: flex;
        margin-bottom: 130px;} 
    
 }
+@media screen and (max-width:320px){
+
+    header{
+        width: 173%;
+    height: 950px;
+    }
+   .banner{
+       margin-bottom: 130px;} 
+   
+}
 
 /*******************************/
 
@@ -110,7 +120,7 @@ display: flex;
     font-family: Comic Sans MS;
 font-size: 20px;
 }
-/********************************************/
+/********************************************
 @media screen and (max-width:860px){
 .vision{
     height: 320px;
@@ -136,12 +146,12 @@ font-size: 20px;
     height: 400px;
    
     }}
-
+*/
 @media screen and (max-width:320px){
 .vision{
+    width: 173%;
     height: 400px;
-
-}
+   }
 }
   /**********************************/
 
@@ -154,16 +164,23 @@ font-size: 20px;
     font-size: 35px;
      color: lightslategray;
 }
+
+@media screen and (max-width:411px){
+.tour-menu{
+    width: 173%;
+    }}
 @media screen and (max-width:360px){
 .tour-menu{
     width: 103%;
     height: 120px;
    
     }}
-@media screen and (max-width:411px){
+@media screen and (max-width:320px){
 .tour-menu{
     width: 173%;
-}
+    height: 50px;
+   
+    }}
 /**********************************/
 
 .news img{
@@ -287,81 +304,12 @@ align-items: center;
 
 @media screen and (max-width:860px){
 
-    
-.abt{
-    display: block;
-        flex-direction: column;
-        flex-wrap: wrap;
-        }
-     .about-us {
-    width: 100%;
-        height: 41%;
-        }
-       #ab_us1{
-        margin: 0.2%;
-    }
-       #ab_us2{
-    margin-top:-10px;    
-    }
-    
-    .team{
-        display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-	width: 30%;
-      height: 68%;
-        margin:auto 1.5% ;
-    margin-top: -120px
-    }
- .team .as{
-     width: 700px;
-        margin: 1px;
-        font-size: 17px;
-    }
-    .team h2{
-        font-size: 18px;
-        height: 5%;
-        font-weight: 900;
-    margin-bottom: 10px;
-    }
-    .abt i{
-    font-size: 450%;
-    }
 }
 
 
 
 @media screen and (max-width:414px){
-.abt{
-    height: 1200px;
-display: flex;   
-    flex-direction: row;
-    flex-wrap:wrap;
-    }
-    #ab_us1{
-        margin: 0.2%; 
-    font-size: 100%;
-    }
 
-    .abt i{
-    font-size: 250%;
-    }
-    .team{
-        justify-content: center;
-        justify-self:center;
-        display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-	width: 100%;
-        height: 22.5%;
-        margin:auto ;
-    margin-top: -300px;
-        margin-bottom: 350px
-    } 
-    #ab_us2{
-     
-        font-size: 19px;
-    }
     
 }
 
@@ -403,8 +351,25 @@ display: flex;
     }
 }
 @media screen and (max-width:320px){
-
-
+.abt{
+        width: 173%;
+    height: 1200px;
+    }
+    #ab_us1{
+        margin: 1.2%; 
+    }
+    .team{
+         height: 280px
+           } 
+    #ab_us2{
+        font-size: 25px;
+    }
+    .about-us{
+        font-size: 30px
+    }
+    .abus{
+        font-size: 26px
+    }
 }
 
 /******************************************/
