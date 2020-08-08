@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 940px;
+    background-image: url(img/indepen_sq.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column
+}
+header .nav-container .top{
+     position: fixed;
+    background-color: lightskyblue;
+
+}
+.top{
+    background-color: ghostwhite;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    list-style: none;
+    opacity: 0.5
+}
+.top a{
+    margin-top:5px; 
+    display: block;
+    padding: 10px;
+    background:black ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    opacity: 1.5;
+}
+.top a:hover{
+    transition-duration: .40s;
+    background: yellow;
+    color: black;
+  
+}
+.banner{
+    margin-bottom: 130px;
+    flex: 1 0 auto;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-card{
+    flex: 0 0 50%;
+    text-align: center;
+  }
+.banner-card h3 {
+    opacity: 0.5;
+    background-color: azure;
+    font-size: 50px;
+}
+
+
+.vision{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+.vision h2,h4{
+    color:midnightblue;
+    background-color: lightgrey;
+}
+.vision h2{
+    font-size: 100px;
+}
+.vision h4{
+    font-family: Comic Sans MS;
+}
+
+.tour-menu{
+    height: 110px;
+    margin-top:70px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+           color: lightslategray;
+}
+.new{
+        height: 500px;
+   }
+
+.news{
+    background-color: lightgray;
+    text-align: center;
+    display: block;
+	width: 20.5%;
+	float: left;
+    padding: 2px;
+	margin: 0px 50px 25px 100px;
+box-shadow: 0px 3px 5px 2px lightgrey;
+    height: 300px;
+       }
+.news1{
+ 	    width: 0 auto;
+	justify-content: center;
+}
+.news a{
+    text-decoration: none;
+  ;
+}
+.news1 h2, .news1 p{
+     text-decoration: none;
+    list-style: none;
+    padding: 3px 5px;
+        text-align: center;
+}
+
+
+.news1 img{
+	width: 100%;
+    height: 200px;
+}
+.tour-list{
+    background-color: darkgray;
+}
+
+
+.about-us {
+      background: url(img/about_us/IMG-20190704-WA0015.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 850px;
+     text-align: center;
+ }
+.about-us #ab_us2 {
+margin-left: 300px;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+            color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;  
+}
+
+.about-us #ab_us2 {
+        margin-top: 5px;
+    text-align: center;
+            font-family: sans-serif;
+    font-size: 25px;
+ }
+.about-us #ab_us1{
+      color: white;
+margin-top: 230px;
+    text-align: center;
+    font-size: 50px
+} 
+#ab_us1{
+    margin-left: 0px;
+    color: blue;
+}
+
+.team{
+    padding: 5px;
+    background-color: white;
+      margin-top: 80px;
+      width: 100%;
+    margin-left: 95px;
+    width: 23.0%;
+    float: left;
+    height: 400px;
+      
+}
+.team #team-1{
+    margin-left: 10px;
+    margin-top: 10px;
+     align-self: center;
+}
+
+form{  
+        justify-content: center;
+   background-image: url(img/tour_pics/IMG-20191103-WA0005.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+       background-color:#BCBEC0;
+  	font-family:sans-serif;
+font-size: 6px;
+    color: white;
+    text-align: center;
+height: 250px;
+    margin-left: 400px;
+    margin-right: 400px;
+    }
+#signup{
+    margin: auto;
+    font-family: fantasy;
+    font-size: 25px;
+height: 00px;
+}
+#sign{
+    margin: 40px auto;
+ font-size: 18px;
+height: 100px;
+width: 500px;
+}
+
+form input{
+    margin-top: -140px;
+    height: 30px;
+    width: 300px;
+}
+button{
+    margin-top: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #4A69FF;
+    height: 30px;
+    width: 100px;
+}
+.for{
+    margin: 1px 400px 
+}
+
+.newsupdate{
+    
+    height: 100px;
+    background-color: red;
+}
+
+.promotion{
+    height: 200px;
+    background-color: YELLOW;
+}
+
+
+
+
+
+footer{
+background-color:#58595B;
+   height: 400px;
+  border-bottom: 1px solid white;
+}
+footer img{
+        margin: 70px 5px 0px 5px;
+    margin-right: 5px;
+}
+
+footer ul{
+          list-style: none;
+    justify-content: space-around;
+  float: left;
+    margin-top: 20px;
+  margin-left: 50px;
+        width: 250px;
+
+}
+footer ul li{
+    color: white;
+    margin: 10px 0px 10px 0px;
+     font-size: 17px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    padding: 5px;
+width: 200px;
+}
+footer ul{
+    
+    text-align: center;
+}
+#mybut{
+color: white;
+    font-family:serif;
+    font-size: 20px;
+    }
+#contact a:hover{
+    color: black;
+    background-color: yellow;
+    opacity: 0.5;
+}
+footer a{
+    text-decoration: none;
+}
+center{
+        height: 200px;
+    background-color:#58595B;
+
+}
+#media{
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+#team-1{
+ margin: 30px 0px 0px 20px   
+}
+#rights{
+    color: white;
+    margin: 85px 10px 0px 0px;
+}
+center a{
+    justify-content: center;
+    font-size: 15px;
+    margin: 0px 50px 0px 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media screen and (max-width:576px){
+header{
+    height: 620px;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column
+}
+header .nav-container .top{
+     position: fixed;
+    background-color: lightskyblue;
+
+}
+}
+@media screen and (max-width:576px){
+    .new{
+        display: block;
+        margin-top: -70px;
+        height: 220px;
+       }
+
+.news{
+    display:block;
+    font-size: 10px;
+    background-color: lightgray;
+    text-align: center;
+	width: 100px;
+    padding: 1px;
+	 margin: 0px 60px 12px 24px;
+box-shadow: 0px 3px 5px 2px lightgrey;
+    height: 210px;
+       }
+
+    .news1 img{
+	width: 100px;
+    height: 150px;
+}
+
+    .news h2, news1 p{
+        text-align: center;
+        justify-content: center;
+        display:flex;
+
+    }
+    .news p{
+        text-align: center;
+        justify-content: center;
+            width: 100px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:576px){
+.about-us {
+    margin: auto;
+    background-position: center;
+    height: 750px;
+     text-align: center;
+ }
+.about-us #ab_us2 {
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+    height: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;  
+    }
+
+    .about-us #ab_us1{
+    margin: auto;
+      color: blue;
+margin-top: 230px;
+    text-align: center;
+    font-size: 30px
+}
+}
+
+@media screen and (max-width:576px){
+.team{
+    padding: 1px;
+    background-color: white;
+        margin:1px auto;
+    margin-left: 5px;
+      width: 175px;
+    float: left;
+    height: 480px;
+      
+}
+.team #team-1{
+    margin:15px;
+    }
+}
+
+@media screen and (max-width:576px){
+form{  
+    margin:auto; 
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    font-family:sans-serif;
+font-size: 6px;
+    color: white;
+    text-align: center;
+height: 200px;
+    margin-top: 1px;
+    }
+    form .for{
+        border: 2px solid white
+    }
+#signup{
+    margin: auto;
+    font-family: fantasy;
+    font-size: 22px;
+}
+#sign{
+    margin: 30px auto;
+ font-size: 15px;
+height: 70px;
+width: 400px;
+}
+
+form input{
+    margin-top: -10px;
+    height: 20px;
+    width: 250px;
+}
+}
+@media screen and (max-width:576px){
+footer{
+    display:flex;
+background-color:#58595B;
+   height: 550px;
+  border-bottom: 1px solid white;
+font-size: 5px;
+    }
+footer ul{
+          list-style: none;
+    justify-content: space-around;
+  float: left;
+    margin-top: 10px;
+  margin-left: 1px;
+    margin-right: 1px;
+    width: 200px;
+border-right:2px solid white;
+    text-align: center;
+}
+#mybut{
+    text-decoration: underline;
+color: white;
+    font-family:serif;
+    font-size: 15px;
+    }
+#contact a:hover{
+    color: black;
+    background-color: yellow;
+    opacity: 0.5;
+}
+footer ul li{
+    font-size: 16px;
+    text-decoration: none;
+}
+    }
+
+
+
+
+*/
+
+
+
+
+@media screen and (min-width:920px){
+header{
+    height: 350px;
+     background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+header .nav-container .top{
+     position: fixed;
+    background-color: lightskyblue;
+
+   }
+}
+@media screen and (min-width:920px){
+.news{
+    justify-items: center;
+    background-color: lightgray;
+    text-align: center;
+	justify-content: center;
+    padding: 1px;
+	margin: 0px 50px 80px 30px;
+    display: ;
+box-shadow: 0px 3px 5px 2px lightgrey;
+    height: 220px;
+    width: 220px;
+       }
+}
+
+@media screen and (min-width:920px){
+.about-us {
+    margin: auto;
+    background-position: center;
+    height: 750px;
+     text-align: center;
+ }
+.about-us #ab_us2 {
+    margin: auto;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;  
+    }
+.about-us #ab_us1{
+    margin: auto;
+      color: blue;
+margin-top: 90px;
+    text-align: center;
+    font-size: 40px
+}
+}
+
+@media screen and (min-width:360px){
+.team{
+    padding: 10px;
+    background-color: white;
+        margin:1px auto;
+    margin-left: 46px;
+    margin:0px 46px auto;
+    width: 10%;
+        width: 190px;
+    float: left;
+    height: 420px;
+      
+}
+.team #team-1{
+    margin:auto;
+    }
+}
+
+@media screen and (min-width:360px){
+form{  
+    margin:auto; 
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    font-family:sans-serif;
+font-size: 6px;
+    color: white;
+    text-align: center;
+height: 200px;
+    margin-top: 1px;
+    }
+    form .for{
+        border: 2px solid white
+    }
+#signup{
+    margin: auto;
+    font-family: fantasy;
+    font-size: 22px;
+}
+#sign{
+    margin: 30px auto;
+ font-size: 15px;
+height: 70px;
+width: 400px;
+}
+
+form input{
+    margin-top: -10px;
+    height: 20px;
+    width: 250px;
+}
+}
+@media screen and (min-width:360px){
+footer{ 
+    display: flex;
+background-color:#58595B;
+   height: 300px;
+  border-bottom: 1px solid white;
+font-size: 10px;
+    }
+footer ul{
+          list-style: none;
+    justify-content: space-around;
+  float: left;
+    margin-top: 10px;
+  margin-left: 1px;
+    margin-right: 1px;
+    width: 200px;
+border-right:2px solid white;
+    text-align: center;
+}
+#mybut{
+    text-decoration: underline;
+color: white;
+    font-family:serif;
+    font-size: 15px;
+    }
+#contact a:hover{
+    color: black;
+    background-color: yellow;
+    opacity: 0.5;
+}
+footer ul li{
+    font-size: 16px;
+    text-decoration: none;
+}
+        
+}
+
+
