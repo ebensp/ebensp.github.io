@@ -73,10 +73,12 @@ display: flex;
      
 }
 @media screen and (max-width:411px){
-
+    .top{
+        
+    }
     header{
     height: 1200px;   
-     width: 173%;
+
     }
    .banner{
        margin-bottom: -140px;} 
@@ -84,7 +86,6 @@ display: flex;
 @media screen and (max-width:360px){
 
     header{
-        width: 103%;
     height: 950px;
     }
    .banner{
@@ -120,7 +121,7 @@ display: flex;
     font-family: Comic Sans MS;
 font-size: 20px;
 }
-/********************************************
+/********************************************/
 @media screen and (max-width:860px){
 .vision{
     height: 320px;
@@ -136,17 +137,15 @@ font-size: 20px;
 
 @media screen and (max-width:360px){
 .vision{
-    width: 103%;
     height: 400px;
    
     }}
 
 @media screen and (max-width:375px){
 .vision{
-    height: 400px;
+    height: 300px;
    
     }}
-*/
 @media screen and (max-width:320px){
 .vision{
     width: 173%;
@@ -171,9 +170,7 @@ font-size: 20px;
     }}
 @media screen and (max-width:360px){
 .tour-menu{
-    width: 103%;
-    height: 120px;
-   
+    
     }}
 @media screen and (max-width:320px){
 .tour-menu{
@@ -220,8 +217,9 @@ display: block;
 /*********************************/
 @media screen and (max-width:360px){
 .board{
-    width: 103%;
-}}
+    width: 173%;
+}
+}
 @media screen and (max-width:411px){
 .board{
     width: 173%;
@@ -322,7 +320,7 @@ align-items: center;
         margin: 1.2%; 
     }
     .team{
-         height: 280px
+        height: 280px
            } 
     #ab_us2{
         font-size: 25px;
@@ -337,17 +335,33 @@ align-items: center;
 
 @media screen and (max-width:360px){
 .abt{
-    width: 103%;
-    height: 1000px;
+        height: 1500px;
     }
     #ab_us1{
-        margin: 1.2%; 
+        font-size: 100%;
     }
-    .team{
-         height: 280px
-           } 
+    .abt i{.
+    font-size: 250%;
+    }
+
+.team{
+	width: 100%;
+       height: 380px;
+        margin: 5% auto ;
+    margin-top: 100px;
+        margin-bottom: 10px
+    } 
     #ab_us2{
-        font-size: 19px;
+        font-size: 25px;
+    }
+#ab_us2{
+        font-size: 30px;
+    }
+    .about-us{
+                font-size: 30px
+    }
+    .abus{
+            font-size: 26px
     }
 }
 @media screen and (max-width:320px){
@@ -429,7 +443,6 @@ button{
 }
     @media screen and (max-width:360px){
     form{
-        width: 103%;
         margin-top: 150px
     }
     
@@ -454,8 +467,7 @@ button{
 }
     @media screen and (max-width:360px){
    .newsvideo video{
-       margin:1px -95px;
-    width: 370px;
+          width: 632px;
     height: 300px
 }
 }
@@ -463,6 +475,7 @@ button{
 
 /**********************************************/
 .promotion{
+    width: 100%;
     height: 100%;
     background-color: YELLOW;
 }
@@ -561,10 +574,6 @@ footer #contact{
     }
 }
 @media screen and (max-width:360px){
-    footer{
-        width: 103.3%;
-        border-left: none;
-}
     #contact {
         justify-content: center;
                 border-left: none;
@@ -610,10 +619,6 @@ center h4{color: antiquewhite;
     }
 }
 
-    @media screen and (max-width:360px){
-    center{
-        width: 103.3%
-    }
-}
+    
 
 
