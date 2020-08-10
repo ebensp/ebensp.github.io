@@ -4,7 +4,7 @@ margin:0;
 padding:0;
 }
 
-header{background-color: RED; 
+header{
     height: 960px;
     background-image: url(../img/indepen_sq.jpg);
     background-size: 100% 100%;
@@ -16,13 +16,12 @@ header{background-color: RED;
 }
 
 header .nav-container .top{
-    background-color: RED; 
      position: fixed;
     background-color: lightskyblue;
 }
 
-.top{background-color: RED; 
-        background-color: ghostwhite;
+.top{
+       background-color: ghostwhite;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -32,7 +31,7 @@ header .nav-container .top{
     opacity: 0.5
 }
 
-.top a{background-color: RED; 
+.top a{
     margin-top:5px; 
     display: block;
     padding: 10px;
@@ -42,13 +41,13 @@ header .nav-container .top{
     color: white;
     opacity: 1.5;
 }
-.top a:hover{background-color: RED; 
+.top a:hover{ 
     transition-duration: .40s;
     background: yellow;
     color: black;
  }
 
-.banner{background-color: RED; 
+.banner{ 
     margin-bottom: 130px;
     flex: 1 0 auto;
 display: flex;
@@ -56,11 +55,11 @@ display: flex;
     justify-content: center;
 }
 
-.banner-card{background-color: RED; 
+.banner-card{
     flex: 0 0 50%;
     text-align: center;
   }
-.banner-card h3 {background-color: RED; 
+.banner-card h3 { 
     opacity: 0.5;
     background-color: azure;
     font-size: 50px;
@@ -130,24 +129,24 @@ display: flex;
         width: 100%;
     }     
     header{
-            width: 125%;
+            width: 139%;
           }
       }
 /*******************************/
 
-    .vision{background-color: RED; 
+    .vision{
     justify-content: center;
     text-align: center;
     margin-top: 10px;
     width: 100%;
     height: 200px;
 }
-.vision h2{background-color: RED; 
+.vision h2{ 
     font-size: 100px;
     color:midnightblue;
     background-color: lightgrey;
 }
-.vision h4{background-color: RED; 
+.vision h4{ 
     font-family: Comic Sans MS;
 font-size: 20px;
 }
@@ -192,7 +191,7 @@ font-size: 20px;
     }
 }
 @media screen and (max-width:320px){
-.vision{width: 125%;
+.vision{width: 139%;
     height: 370px;
     }
     .vision h2{
@@ -210,7 +209,6 @@ font-size: 20px;
     text-align: center;
     font-size: 35px;
      color: lightslategray;
-background-color: RED;
 }
 /**********************************/
 @media screen and (max-width:411px){
@@ -226,21 +224,21 @@ background-color: RED;
     }}
 @media screen and (max-width:320px){
 .tour-menu{
-        width: 125%;
-    height: 100px;
+        width: 139%;
+    height: 70px;
     }    
 }
 
 /**********************************/
 
-.news img{background-color:red;
-display: block;
+.news img{
+    display: block;
     align-items: center;
     	width: 100%;
     height: 200px;
 }
 
-.board{background-color:red;
+.board{
     justify-content: center;
     align-items: center;
             display: flex;
@@ -248,7 +246,7 @@ flex-wrap: wrap;
     width: 100%;
                 height: 100%;
 }
-.news{background-color:red;
+.news{
     float: right;
     background-color: lightgray;
     text-align: center;
@@ -284,7 +282,7 @@ display: block;
 }
 @media screen and (max-width:320px){
     .board{
-            width: 125%;
+            width: 139%;
 }
 }
 /****************************/
@@ -538,11 +536,22 @@ align-items: center;
        }
 @media screen and (max-width:320px){
 .abt{
-    width: 125%;
-        height: 1300px;
+    width: 138%;
+        }
+    .abt{
+          height: 1300px;
     }
+.about-us{ 
+    width: 100%;
+        }
+        #ab_us2{
+        width: 440px;
+      }
+    .team{
+        width: 100%;
+          } 
+  
        }
-
 /******************************************/
 
 form{  
