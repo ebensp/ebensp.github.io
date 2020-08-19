@@ -631,11 +631,11 @@ align-items: center;
         width: 360px;
       }
     .team{
-        height: 550px;
+        height: 600px;
         width: 100%;
           } 
     .as{
-        height: 550px
+        height: 600px
     }
        }
 @media screen and (max-width:320px){
