@@ -722,12 +722,13 @@ button{
     }   
 @media screen and (max-width:384px){
     form{
+        height: 450px;
         width: 107%;
     }
     }
 @media screen and (max-width:360px){
     form{
-        height: 450px;
+        height: 550px;
         width: 100%;
     }
     }
