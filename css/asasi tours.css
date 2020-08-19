@@ -88,7 +88,9 @@ display: flex;
         }
       }
 @media screen and (max-width:414px){
-        
+        .top{
+        width: 100%;
+    }    
     header{
         width: 100%;
         height: 900px;
@@ -103,6 +105,11 @@ display: flex;
         height: 900px;
         }
       }
+@media screen and (max-width:384px){
+    header{
+        width: 107%;
+    }
+     }
 @media screen and (max-width:375px){
     .top{
         width: 100%;
@@ -114,7 +121,7 @@ display: flex;
         width:100%;
     } 
     header{
-        width: 111%;
+        width: 103%;
         height: 700px;
     }
    .banner-card{
@@ -175,6 +182,11 @@ font-size: 20px;
    margin-bottom: 0px;
     }
 }
+@media screen and (max-width:384px){
+.vision{
+    width: 410px;
+      }
+}
 @media screen and (max-width:375px){
 .vision{
     height: 400px;
@@ -182,8 +194,8 @@ font-size: 20px;
 }
 @media screen and (max-width:360px){
 .vision{
-    width: 111%;
-    height: 350px;
+    width: 103%;
+    height: 360px;
    margin-bottom: 1px;
     }
     .vision h2{
@@ -217,9 +229,13 @@ font-size: 20px;
     height: 100px;
     }
 }
+@media screen and (max-width:384px){
+    .tour-menu{
+        width: 107%;
+    }}
 @media screen and (max-width:360px){
     .tour-menu{
-        width: 111%;
+        width: 103%;
     height: 100px;
     }}
 @media screen and (max-width:320px){
@@ -275,9 +291,14 @@ display: block;
 @media screen and (max-width:411px){
    
 }
+@media screen and (max-width:384px){
+    .board{
+            width: 105%;
+}
+}
 @media screen and (max-width:360px){
     .board{
-            width: 111%;
+            width: 103%;
 }
 }
 @media screen and (max-width:320px){
@@ -441,9 +462,29 @@ align-items: center;
     }
        }
 @media screen and (max-width:414px){
-.abt{
+
+    #ab_us1{
+        margin-left: 55px;
+            }
+    .abt i{
+    font-size: 140%;
+    }
+.team{
+       height: 380px;
+    } 
+    #ab_us2{
+    width: 414px;
+        font-size: 27px;
+    }
+    .about-us{
+        height: 400px;
+        margin-left: 0px;        
+    }
+    .abus{
+        font-size: 22px
+    }
+       }/*.abt{
     height: 300px;
-        height: 1300px;
     }
    .team{
        height: 300px;
@@ -477,7 +518,7 @@ align-items: center;
     .abus{
         font-size: 16px
     }
-       }
+       }*/
 @media screen and (max-width:411px){
   .abt{
   
@@ -496,6 +537,24 @@ align-items: center;
         width: 410px;
         font-size: 21px;
     }
+       }
+@media screen and (max-width:384px){
+.abt{
+    width: 97%;
+        }
+    .abt{
+          height: 1300px;
+    }
+.about-us{ 
+    width: 110%;
+        }
+        #ab_us2{
+        width: 410px;
+      }
+    .team{
+        width: 110%;
+          } 
+  
        }
 @media screen and (max-width:375px){
 .abt{
@@ -517,11 +576,12 @@ align-items: center;
        }
 @media screen and (max-width:360px){
 .abt{
-    width: 111%;
+    width: 102%;
         height: 1300px;
     }
 .about-us{
-        margin-right: 5px;
+    width: 367px;
+        margin-right: 0px;
         height: 250px
     }
     #ab_us1{
@@ -530,9 +590,13 @@ align-items: center;
         font-size: 130%;
     }
     #ab_us2{
-        width: 400px;
+        width: 365px;
         font-size: 21px;
     }
+    .team{
+        width: 100%;
+          } 
+  
        }
 @media screen and (max-width:320px){
 .abt{
@@ -618,14 +682,19 @@ button{
     }
 @media screen and (max-width:411px){
     }   
+@media screen and (max-width:384px){
+    form{
+        width: 107%;
+    }
+    }
 @media screen and (max-width:360px){
     form{
-        width: 111%;
+        width: 103%;
     }
     }
 @media screen and (max-width:320px){
     form{
-        width: 125%;
+        width: 138%;
     }
     }
 /*********************************************/
@@ -645,6 +714,16 @@ button{
           width: 800px;
     height: 470px
     } }
+@media screen and (max-width:800px){
+   .newsvideo video{
+       margin: 1% auto;
+          width: 855px;
+    height: 500px
+}
+.newsvideo{
+ margin: 0px;
+}
+ } 
 @media screen and (max-width:768px){
    .newsvideo video{
        margin:auto;
@@ -675,6 +754,15 @@ button{
     
 }
  }
+@media screen and (max-width:384px){
+   .newsvideo video{
+      
+          width: 410px;
+   }
+.newsvideo{
+    width: 410px;
+ }
+ }
 @media screen and (max-width:375px){
    .newsvideo video{
        margin: 10% auto;
@@ -690,19 +778,22 @@ button{
 @media screen and (max-width:360px){
    .newsvideo video{
        margin: 10% auto;
-          width: 400px;
+          width: 370px;
     height: 300px
 }
 .newsvideo{
  margin: 0px;
-    width: 400px;
+    width: 370px;
  background-color: dimgrey;
     
 }
  }
 @media screen and (max-width:320px){
-.newsvideo{
-    width: 400px;
+.newsvideo video{
+          width: 440px;
+}
+    .newsvideo{
+    width: 442px;
  background-color: none;
 }
  }
@@ -806,6 +897,18 @@ text-decoration: underline
 footer a{
     text-decoration: none;
 }   }
+@media screen and (max-width:800px){
+  footer{
+     height:100%;
+width: 107%
+    }
+    #contact {
+        height: 300px;
+        width: 400px;
+        flex-direction: column;
+        border-left: none;
+    }
+    }
 
 @media screen and (max-width:768px){
   footer{
@@ -840,15 +943,20 @@ footer a{
         border-left: none;
     }
     }
+@media screen and (max-width:384px){
+  footer{
+    width:107%;
+    }
+    }
 @media screen and (max-width:360px){
   footer{
-    width:111%;
+    width:103%;
     }
     }
 
 @media screen and (max-width:320px){
   footer{
-    width:125%;
+    width:138%;
     }
     }
 /**************************************/
@@ -885,14 +993,24 @@ center h4{color: antiquewhite;
     margin: 2% 0px 0px 0px;
 }
 /********************************************/
+@media screen and (max-width:800px){
+    center{
+        width: 107%
+    }
+}
+@media screen and (max-width:384px){
+    center{
+        width: 107%
+    }
+}
 @media screen and (max-width:360px){
     center{
-        width: 111%
+        width: 103%
     }
 }
 @media screen and (max-width:320px){
     center{
-        width: 125%
+        width: 138%
     }
 }
 
