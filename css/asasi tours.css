@@ -74,13 +74,20 @@ display: flex;
 @media screen and (max-width:800px){
         header{
         width: 107.5%;
-        height: 990px;
+        height: 1300px;
         }
       }
 @media screen and (max-width:768px){
         header{
         width: 107%;
         height: 990px;
+        }
+      }
+@media screen and (max-width:640px){
+  
+    header{
+        width: 128.6%;
+        height: 450px;
         }
       }
 @media screen and (max-width:600px){
@@ -93,11 +100,9 @@ display: flex;
         }
       }
 @media screen and (max-width:480px){
-        .top{
-        width: 100%;
-    }    
+        
     header{
-        width: 115%;
+        width: 171.5%;
         height: 900px;
         }
       }
@@ -110,6 +115,12 @@ display: flex;
         height: 900px;
         }
       }
+@media screen and (max-width:412px){    
+    header{
+        width: 199.5%;
+        height: 1250px;
+        }
+      }
 @media screen and (max-width:411px){
     .top{
         width: 100%;
@@ -120,11 +131,10 @@ display: flex;
         }
       }
 @media screen and (max-width:384px){
-    .top{
-        width: 100%;
-    }
+   
     header{
-        width: 107%;
+        width: 114.5%;
+         height: 800px;
     }
      }
 @media screen and (max-width:375px){
@@ -156,6 +166,11 @@ display: flex;
     }     
     header{
             width: 139%;
+          }
+      }
+@media screen and (max-width:240px){
+    header{
+            width: 184%;
           }
       }
 /*******************************/
@@ -196,8 +211,12 @@ font-size: 20px;
 @media screen and (max-width:414px){
 .vision{
     height: 350px;
-   margin-bottom: 0px;
     }
+}
+@media screen and (max-width:412px){
+.vision{
+    width: 821.5px;
+     }
 }
 @media screen and (max-width:411px){
 .vision{
@@ -207,7 +226,7 @@ font-size: 20px;
 }
 @media screen and (max-width:384px){
 .vision{
-    width: 410px;
+    width: 440px;
       }
 }
 @media screen and (max-width:375px){
@@ -232,6 +251,10 @@ font-size: 20px;
     .vision h2{
     font-size: 55px;
     }
+    }
+@media screen and (max-width:240px){
+.vision{width: 184.5%;
+      }
     }
 /**********************************/
 
@@ -258,10 +281,26 @@ font-size: 20px;
     width: 107%;
     }
 }
+@media screen and (max-width:640px){
+    .tour-menu{
+        
+    width: 128.6%;
+    }
+}
 @media screen and (max-width:600px){
     .tour-menu{
         
     width: 137%;
+    }
+}
+@media screen and (max-width:480px){
+    .tour-menu{
+        width: 171.5%
+    }
+}
+@media screen and (max-width:412px){
+    .tour-menu{
+        width: 199.5%
     }
 }
 @media screen and (max-width:411px){
@@ -272,7 +311,7 @@ font-size: 20px;
 }
 @media screen and (max-width:384px){
     .tour-menu{
-        width: 107%;
+        width: 114.5%;
     }}
 @media screen and (max-width:360px){
     .tour-menu{
@@ -283,6 +322,11 @@ font-size: 20px;
 .tour-menu{
         width: 139%;
     height: 70px;
+    }    
+}
+@media screen and (max-width:240px){
+.tour-menu{
+        width: 184.5%
     }    
 }
 
@@ -341,22 +385,45 @@ display: block;
     height: 280px
 }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
 .news{
 	width: 300px;
     height: 280px
 }
-        .board{
-            width: 130%;
+.board{
+    width: 125%;
 }
+}
+@media screen and (max-width:600px){
 
+.board{
+    width: 130%;
+}
+}
+@media screen and (max-width:480px){
+.news{
+	width: 300px;
+    height: 280px
+}
+.board{
+    width: 165%;
+}
+}
+@media screen and (max-width:412px){
+.news{
+	width: 300px;
+    height: 280px
+}
+.board{
+    width: 190%;
+}
 }
 @media screen and (max-width:411px){
    
 }
 @media screen and (max-width:384px){
     .board{
-            width: 105%;
+            width: 110%;
 }
 }
 @media screen and (max-width:360px){
@@ -369,11 +436,16 @@ display: block;
             width: 139%;
 }
 }
+@media screen and (max-width:240px){
+    .board{
+            width: 180%;
+}
+}
 /****************************/
 .abt{
     width: 100%;
     display: block;
-     background: url(/img/about_us/IMG-20190704-WA0015.jpg);
+     background: url(../img/about_us/IMG-20190704-WA0015.jpg);
 background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -531,18 +603,32 @@ align-items: center;
         font-size: 22px
     }
        }
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
        #ab_us1{
-        margin-left: 80px;
+        margin-left: 180px;
             }
     .abt i{
-    font-size: 190%;
+    font-size: 200%;
     }
     .abt{
-    width: 137.5%
+        width: 128.5%
     }
 .team{
-       height: 370px;
+       height: 300px;
+   
+       }
+@media screen and (max-width:600px){
+       #ab_us1{
+        margin-left: 180px;
+            }
+    .abt i{
+    font-size: 200%;
+    }
+    .abt{
+        width: 137.5%
+    }
+.team{
+       height: 500px;
     } 
     #ab_us2{
         font-size: 37px;
@@ -553,13 +639,15 @@ align-items: center;
             margin-left: 0px;        
     }
     .abus{
-        font-size: 32px
+        font-size: 35px
     }
        }
 @media screen and (max-width:480px){
-
+.abt{
+        width: 171.5%
+    }
     #ab_us1{
-        margin-left: 55px;
+        margin-left: 190px;
             }
     .abt i{
     font-size: 140%;
@@ -568,7 +656,7 @@ align-items: center;
        height: 380px;
     } 
     #ab_us2{
-    width: 414px;
+    width: 815px;
         font-size: 27px;
     }
     .about-us{
@@ -601,43 +689,32 @@ align-items: center;
     .abus{
         font-size: 22px
     }
-       }/*.abt{
-    height: 300px;
+       }
+@media screen and (max-width:412px){
+  .abt{
+  width: 199.5%;
+        height: 1300px;
     }
-   .team{
-       height: 300px;
-    }  
+.about-us{
+        
+    font-size: 35px;
+    height: 290px
+    }
     #ab_us1{
-        font-size: 150%;
+        height: 40px;
+       margin-left: 0px;
+        font-size: 130%;
     }
-    .abt i{
-    font-size: 130%;
-    }
-
-.team{
-    
-    width: 100%;
-       height: 320px;
-        margin: 1% auto ;
-    margin-top: 50px;
-        margin-bottom: 1px
-    } 
+    #ab_us1{
+        margin-left: 200px;
+        
+            }
     #ab_us2{
-            font-size: 15px;
+        width: 820px;
+        font-size: 35px;
     }
-#ab_us2{
-        font-size: 20px;
-    }
-    .about-us{
-        margin-right: 5px;
-        width: 400px;
-            
-    }
-    .abus{
-        font-size: 16px
-    }
-       }*/
-@media screen and (max-width:411px){
+       }
+    @media screen and (max-width:411px){
   .abt{
   
         height: 1300px;
@@ -658,19 +735,19 @@ align-items: center;
        }
 @media screen and (max-width:384px){
 .abt{
-    width: 107%;
+    width: 114.5%;
         }
     .abt{
           height: 1300px;
     }
 .about-us{ 
-    width: 107%;
+    width: 100%;
         }
         #ab_us2{
-        width: 410px;
+        width: 430px;
       }
     .team{
-        width: 107%;
+        width: 100%;
           } 
   
        }
@@ -737,11 +814,29 @@ align-items: center;
           } 
   
        }
+    @media screen and (max-width:240px){
+.abt{
+    width: 184%;
+        }
+    .abt{
+          height: 1600px;
+    }
+.about-us{ 
+    width: 100%;
+        }
+        #ab_us2{
+        width: 440px;
+      }
+    .team{
+        width: 100%;
+          } 
+  
+       }
 /******************************************/
 
 form{  
         justify-content: center;
-   background-image: url(/img/tour_pics/IMG-20191103-WA0005.jpg);
+   background-image: url(../img/tour_pics/IMG-20191103-WA0005.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -803,9 +898,19 @@ button{
         width: 107%;
     }
     }
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
+    form{
+        width: 128.5%;
+    }
+    }
+    @media screen and (max-width:600px){
     form{
         width: 137%;
+    }
+    }
+@media screen and (max-width:480px){
+    form{
+        width: 171.5%;
     }
     }
 @media screen and (max-width:414px){
@@ -813,12 +918,17 @@ button{
         width: 100%;
     }
     }
+    @media screen and (max-width:412px){
+    form{
+        width: 199.5%;
+    }
+    }
 @media screen and (max-width:411px){
     }   
 @media screen and (max-width:384px){
     form{
         height: 450px;
-        width: 107%;
+        width: 114.5%;
     }
     }
 @media screen and (max-width:360px){
@@ -832,7 +942,12 @@ button{
         width: 138%;
     }
     }
-/*********************************************/
+@media screen and (max-width:240px){
+    form{
+        width: 184%;
+    }
+    }
+    /*********************************************/
 .newsvideo{
  margin: 1% 27%;
     
@@ -859,6 +974,13 @@ button{
  margin: 0px;
 }
  } 
+@media screen and (max-width:640px){
+   .newsvideo video{
+       margin:auto;
+
+          width: 360px;
+    height: 470px
+    } }
 @media screen and (max-width:600px){
    .newsvideo video{
        margin:auto;
@@ -882,7 +1004,15 @@ button{
 .newsvideo{
  margin: 0px;
 }
- }   
+ } 
+    @media screen and (max-width:412px){
+   .newsvideo video{
+       margin: 10% auto;
+          width: 822px;
+    height: 450px
+}
+
+ } 
 @media screen and (max-width:411px){
    .newsvideo video{
       background-color: RED; 
@@ -898,11 +1028,10 @@ button{
  }
 @media screen and (max-width:384px){
    .newsvideo video{
-      
-          width: 410px;
+                width: 440px;
    }
 .newsvideo{
-    width: 410px;
+    width: 440px;
  }
  }
 @media screen and (max-width:375px){
@@ -1064,7 +1193,15 @@ width: 107%
     }
     
     }
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
+  footer{
+     width:128.5%;
+    }
+    #contact {
+        height: 300px;
+        }
+        }
+    @media screen and (max-width:600px){
   footer{
      width:137%;
     }
@@ -1076,13 +1213,35 @@ width: 107%
     }
     
     }
-@media screen and (max-width:414px){
+@media screen and (max-width:480px){
+  footer{
+      height: 100%;
+     width:171.5%;
+    }
+    #contact {
+        height: 320px;
+        width: 490px;
+        flex-direction: column;
+        border-left: none;
+    }
+    }
+    @media screen and (max-width:414px){
   footer{
      height:100%;
     }
     #contact {
         height: 320px;
         width: 350px;
+        flex-direction: column;
+        border-left: none;
+    }
+    }
+@media screen and (max-width:412px){
+  footer{
+     width:199.5%;
+          }
+    #contact {
+        width: 450px;
         flex-direction: column;
         border-left: none;
     }
@@ -1100,7 +1259,7 @@ width: 107%
     }
 @media screen and (max-width:384px){
   footer{
-    width:107%;
+    width:114.5%;
     }
     }
 @media screen and (max-width:360px){
@@ -1112,6 +1271,11 @@ width: 107%
 @media screen and (max-width:320px){
   footer{
     width:138%;
+    }
+    }
+    @media screen and (max-width:240px){
+  footer{
+    width:184%;
     }
     }
 /**************************************/
@@ -1153,18 +1317,29 @@ center h4{color: antiquewhite;
         width: 107%
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
+    center{
+        width: 128.5%
+    }
+}
+    @media screen and (max-width:600px){
     center{
         width: 137%
     }
 }
-
-
-
-
-@media screen and (max-width:384px){
+@media screen and (max-width:480px){
     center{
-        width: 107%
+        width: 171.5%
+    }
+}
+    @media screen and (max-width:412px){
+    center{
+        width: 199.5%
+    }
+}
+    @media screen and (max-width:384px){
+    center{
+        width: 114.5%
     }
 }
 @media screen and (max-width:360px){
@@ -1175,6 +1350,11 @@ center h4{color: antiquewhite;
 @media screen and (max-width:320px){
     center{
         width: 138%
+    }
+}
+@media screen and (max-width:240px){
+    center{
+        width: 184%
     }
 }
 
