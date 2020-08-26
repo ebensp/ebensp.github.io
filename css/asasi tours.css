@@ -885,7 +885,7 @@ align-items: center;
     height:700px;  
     }
     .team{
-        height: 900px;
+        height: 1200px;
         width: 100%;
           } 
     .as{
@@ -954,7 +954,7 @@ align-items: center;
 
 form{  
         justify-content: center;
-   background-image: url(/img/about_us/IMG-20190704-WA0015.jpg);
+   background-image: url(../img/gh_f/gh_2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1089,10 +1089,14 @@ button{
     }
     /*********************************************/
 .newsvideo{
- margin: 1% 27%;
-    
+ background-color: dimgrey;
+width: 1349px;
+    margin: 1% 0%;
 }
 .newsvideo video{
+margin-left: 360px;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 450px
 }
@@ -1485,7 +1489,7 @@ center h4{color: antiquewhite;
 /********************************************/
 @media screen and (max-width:1440px){
     center{
-        width: 107%
+        width: 100%
     }
 }
     @media screen and (max-width:800px){
